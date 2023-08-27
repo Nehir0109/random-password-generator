@@ -1,0 +1,39 @@
+body {
+    background-color:1C1C1C ;
+    color:FFFFFF;
+
+}
+
+.container {
+    border: 5px solid orange;
+    background-color:#171746 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.title{
+    border: 5px solid yellow;
+    
+}
+
+.random {
+    color:4ADF86;
+}
+.paragraph{
+    border: 5px solid purple;
+    margin-bottom: 45px;
+
+}
+
+.buton {
+    border: 5px solid blue;
+    
+}
+
+.btn {
+    border-radius: 6px;
+    font-size: larger;
+}
