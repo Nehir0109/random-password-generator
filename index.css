@@ -1,6 +1,9 @@
 body {
     background-color:1C1C1C ;
     color:FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -10,12 +13,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    width:1180px;
+    height: 600px;
 
 }
 
 .title{
     border: 5px solid yellow;
+    margin:auto;
     
 }
 
@@ -35,5 +40,25 @@ body {
 
 .btn {
     border-radius: 6px;
+    width: 191px;
+    height: 60px;;
     font-size: larger;
+    background-color: 10B981;
+    color:white;
+}
+
+.passwords{
+    justify-content: center;
+    align-items: center;
+}
+
+.randompass {
+    background-color: 273549;
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    border-color: 273549;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
 }
