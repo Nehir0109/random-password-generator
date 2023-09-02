@@ -1,90 +1,92 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding:0;
+    font-family: 'Karla', sans-serif;
 }
 
 body {
-  background-color: #1c1c1c;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background-color: #1C1C1C ;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
-  background-color: #171746;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding-left: 54px;
-  padding-right: 54px;
+    background-color: #171746;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left:54px;
+    padding-right:54px;
 
-  width: 550px;
-  height: 550px;
+    width: 1100px;
+    height: 550px;
 }
 
-.title {
-  font-size: 40px;
-  font-weight: 800;
+.title{
+    font-size: 40px;
+    font-weight:800;
+    
 }
 
 .random {
-  color: #4adf86;
+    color: #4adf86;
 }
+
 .paragraph {
-  margin-top: 10px;
-  margin-bottom: 45px;
-  color: #d5d4d8;
+    margin-top: 10px;
+    margin-bottom: 45px;
+    color: #d5d4d8;
 }
 
 .btn {
-  border-radius: 6px;
-  background: #10b981;
-  color: white;
-  font-size: 16px;
-  font-weight: 500;
-
-  padding: 10px 24px;
-  border: none;
+    border-radius: 6px;
+    background: #10B981;
+    color:white;
+    font-size:16px;
+    font-weight:500;
+    padding: 10px 24px;
+    border: none;
 }
 
-.line{
+.line {
     background-color: gray;
     height: 1px;
     width: 100%;
     margin-top: 20px;
 }
 
-.password-results-container{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
-  width: 100%;
+
+.password-results-container {
+    display: flex;
+    justify-content:baseline;
+    margin-top: 40px;
+    width: 100%;
+    gap: 50px;
 }
 
-.password-result{
-  background-color: #273549;
-  color: #55F991;
-  /* padding: 14px 50px; */
-  width: 212px;
-  height: 40px;
-  border-radius: 6px;
-  font-weight: 500;
+.password-result {
+    background-color: #273549;
+    color: #55F991;  
+    width: 212px;
+    height:40px;
+    border-radius: 6px;
+    font-weight:500;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
 }
 
-.password-length-input{
-  background: transparent;
-  border: 2px solid #10b981;
-  border-radius: 6px;
-  font-size: 20px;
-  color: white;
-  width: 212px;
-  padding: 8px 5px;
-  margin-bottom: 20px;
+.password-length-input {
+    background: transparent;
+    border: 2px solid #10b981;
+    border-radius: 6px;
+    font-size: 20px;
+    color: white;
+    width: 212px;
+    padding: 8px 5px;
+    margin-bottom: 20px;
 }
