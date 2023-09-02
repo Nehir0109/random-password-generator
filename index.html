@@ -1,25 +1,29 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;800&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="container">
             
-            <div class="title">
-                <h1>Generate a <br> <span class="random">random password</span></h1>
-            </div>
+            <h1 class="title">
+                Generate a <br> <span class="random">random password</span>
+            </h1>
             
-            <div class="paragraph">
-                <p>Never use an insecure password again.</p>
-            </div>
+            <p class="paragraph">
+                Never use an insecure password again.
+            </p>
             
-            <div class="buton"> 
-                <button class="btn" onclick="create()">Generate Passwords</button>
-            </div>
+            <input id="lengthInput" type="number" max="20" class="password-length-input" />
+            <button id="generateBtn" onclick="generatePassword()" class="btn" onclick="create()">Generate Passwords</button>
             
-            <div class="passwords">
-                <button class="randompass" onclick="password1()" > </button>
-                <button class="randompass" onclick="password2()"> </button>
+            <span class="line"></span>
+            
+            <div class="password-results-container">
+                <div id="result1" class="password-result" ></div>
+                <div id="result2" class="password-result" ></div>
             </div>  
            
         </div>

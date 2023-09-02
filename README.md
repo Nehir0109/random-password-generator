@@ -1,2 +1,2 @@
 
-# RANDOM PASSWORD GENERATOR
+# Random Password Generator.
