@@ -51,6 +51,15 @@ body {
     border: none;
 }
 
+.btn:hover {
+    color:white;
+    cursor:pointer;
+}
+
+.btn:focus {
+    outline:none;
+}
+
 .line {
     background-color: gray;
     height: 1px;
@@ -73,11 +82,19 @@ body {
     width: 212px;
     height:40px;
     border-radius: 6px;
+    border: none;
     font-weight:500;
 
     display:flex;
     justify-content: center;
     align-items: center;  
+
+    transition: all .4s;
+}
+
+.password-result:hover {
+    color: #55F991;
+    cursor: pointer;
 }
 
 .password-length-input {

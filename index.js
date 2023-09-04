@@ -38,3 +38,15 @@ lengthInput.addEventListener("change", (e) => {
 
 });
 
+
+function copy1() {
+    let copyText1 = document.getElementById("result1").innerText;
+    navigator.clipboard.writeText(copyText1);
+    alert(`Password Copied On Clipboard! :  ` + copyText1 );
+  }
+
+  function copy2() {
+    let copyText2 = document.getElementById("result2").innerText;
+    navigator.clipboard.writeText(copyText2);
+    alert(`Password Copied On Clipboard! :  ` + copyText2 );
+  }
