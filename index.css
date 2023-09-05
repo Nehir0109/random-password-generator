@@ -2,6 +2,7 @@
     margin: 0;
     padding:0;
     font-family: 'Karla', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -43,7 +44,7 @@ body {
 
 .btn {
     border-radius: 6px;
-    background: #10B981;
+    background: #737373;
     color:white;
     font-size:16px;
     font-weight:500;
@@ -106,4 +107,19 @@ body {
     width: 212px;
     padding: 8px 5px;
     margin-bottom: 20px;
+}
+
+.password-length-input::placeholder{
+    font-size: 14px;
+}
+
+
+@media (max-width: 700px) {
+    body{
+        padding: 1em;
+    }
+
+    .container {
+        padding: 30px;
+    }
 }
