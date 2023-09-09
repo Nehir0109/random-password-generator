@@ -31,6 +31,7 @@ generateBtn.disabled = true;
 lengthInput.addEventListener("change", (e) => {
   if (e.target.value > 20) {
     e.target.value = 20;
+    alert("You can set the length to a max of 20!")
   }
   if (e.target.value <= 0) {
     generateBtn.disabled = true;
