@@ -16,14 +16,14 @@
                 Never use an insecure password again.
             </p>
             
-            <input id="lengthInput" type="number" min=0 max="20" class="password-length-input" />
+            <input id="lengthInput" type="number" min=0 max="20" class="password-length-input" placeholder="enter password length"/>
             <button id="generateBtn" onclick="generatePassword()" class="btn" onclick="create()">Generate Passwords</button>
             
             <span class="line"></span>
             
             <div class="password-results-container">
-                <button id="result1" onclick="copy('result1')" class="password-result" ></button> 
-                <button id="result2" onclick="copy('result2')" class="password-result" ></button>
+                <div id="result1" onclick="copy('result1')" class="password-result" ></div> 
+                <div id="result2" onclick="copy('result2')" class="password-result" ></div>
            
             </div>  
         
